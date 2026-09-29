@@ -2,6 +2,8 @@
 
 # Image Classification of birds
 
+**English** | [한국어](README.ko.md)
+
 **A whistle stop tour of how to use the latest image classification techniques to build and understand a deep neural network bird classifier**
 
 
