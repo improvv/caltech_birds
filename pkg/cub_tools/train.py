@@ -58,7 +58,7 @@ def train_model(model, criterion, optimizer, scheduler, device, dataloaders, dat
                 scheduler.step()
 
             epoch_loss = running_loss / dataset_sizes[phase]
-            epoch_acc = running_corrects.double() / dataset_sizes[phase]
+            epoch_acc = running_corrects.item() / dataset_sizes[phase]
             
             history['epoch'].append(epoch)
             history[phase+'_loss'].append(epoch_loss)
